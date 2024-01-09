@@ -13,10 +13,12 @@ li{
     list-style-type: none;
     margin:0px;
     color:white;
+    display:flex;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none; 
-    color:white;
+    color:white; 
 }
 
 .header{
@@ -29,6 +31,8 @@ a{
     font-weight:900px;
 }
 .link-list{
+    display:flex;
+    flex:1 1 1;
     width:300px;
     background-color:rgba(49, 125, 247);
     box-sizing:border-box;
@@ -45,6 +49,17 @@ a{
     width:600px;
     box-sizing:border-box;
 }
+.card{
+    display:flex;
+    border:1px solid #eee;
+    box-shadow:2px 4px 16px rgba(0,0,0,.06);
+    border-radius:4px;
+    flex-wra p:wrap;
+    width:150px; Height:auto;
+    box-sizing: border-box;
+    padding:32px;
+    gap:10px;
+}
 .footer{
     background-color: gainsboro;
     display:flex;
@@ -56,14 +71,4 @@ a{
     height:72px;
     box-sizing: border-box;
 }
-.card{
-    display:flex;
-    border:1px solid #eee;
-    box-shadow:2px 4px 16px rgba(0,0,0,.06);
-    border-radius:4px;
-    flex-wrap:wrap;
-    width:150px; Height:150px;
-    box-sizing: border-box;
-    padding:32px;
-    gap:10px;
-}
+
